@@ -8,3 +8,5 @@ vim.keymap.set("n", "<leader>cf", function()
     lsp_format = "fallback",
   })
 end, { desc = "Format current file" })
+
+vim.keymap.set("t", "<Esc>", "<C-\\><C-n>", { desc = "Return to Normal Mode from Terminal" })
